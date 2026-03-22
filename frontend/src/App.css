@@ -50,64 +50,6 @@ body,
   opacity: 15%;
 }
 
-@keyframes wave {
-  2% {
-    transform: translate(-150px, -100px);
-    border-radius: 100px 100px 100px 100px;
-    border-width: 1px;
-  }
-
-  25% {
-    transform: translate(0px, -100px);
-    border-radius: 100px 100px 50px 50px;
-
-    border-width: 5px;
-  }
-
-  50% {
-    transform: translate(150px, -100px);
-    border-radius: 100px 100px 0 0;
-
-    border-width: 10px;
-  }
-
-  75% {
-    transform: translate(0px, -100px);
-    border-radius: 100px 100px 50px 50px;
-
-    border-width: 5px;
-  }
-
-  100% {
-    transform: translate(-150px, -100px);
-    border-radius: 100px 100px 100px 100px;
-
-    border-width: 10px;
-  }
-}
-
-.bubble:nth-child(1) {
-  animation-delay: 0s;
-}
-.bubble:nth-child(2) {
-  animation-delay: 3s;
-}
-.bubble:nth-child(3) {
-  animation-delay: 7s;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
-}
-
 .content {
   flex: 1;
 }
@@ -186,4 +128,78 @@ body,
   color: #332712;
   padding: 8px;
   text-decoration: none;
+}
+
+.download-button:hover {
+  background: linear-gradient(to right, #cce2ff, #346ebb);
+  background-size: 200% 200%;
+  animation: buttonHover 0.35s ease ;
+  background-position: 300px 100%;
+}
+
+.bubble:nth-child(1) {
+  animation-delay: 0s;
+}
+.bubble:nth-child(2) {
+  animation-delay: 3s;
+}
+.bubble:nth-child(3) {
+  animation-delay: 7s;
+}
+
+@keyframes buttonHover {
+    0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 300px;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes wave {
+  2% {
+    transform: translate(-150px, -100px);
+    border-radius: 100px 100px 100px 100px;
+    border-width: 1px;
+  }
+
+  25% {
+    transform: translate(0px, -100px);
+    border-radius: 100px 100px 50px 50px;
+
+    border-width: 5px;
+  }
+
+  50% {
+    transform: translate(150px, -100px);
+    border-radius: 100px 100px 0 0;
+
+    border-width: 10px;
+  }
+
+  75% {
+    transform: translate(0px, -100px);
+    border-radius: 100px 100px 50px 50px;
+
+    border-width: 5px;
+  }
+
+  100% {
+    transform: translate(-150px, -100px);
+    border-radius: 100px 100px 100px 100px;
+
+    border-width: 10px;
+  }
 }
