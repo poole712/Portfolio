@@ -7,6 +7,9 @@ export default function Layout() {
     <div className="layout">
       <Navbar />
       <main className="content">
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
         <Outlet />
       </main>
       <Footer />

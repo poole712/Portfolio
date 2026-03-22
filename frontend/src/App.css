@@ -1,4 +1,6 @@
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
 }
@@ -7,7 +9,13 @@ html, body, #root {
   font-size: small;
 }
 
+.home {
+  position: relative;
+  z-index: 1;
+}
+
 .about-me-box {
+  color: white;
   width: 40%;
   font-size: x-large;
   margin: 20px;
@@ -17,8 +25,87 @@ html, body, #root {
 
 .layout {
   min-height: 100%;
+  z-index: 1;
   display: flex;
+  position: relative;
   flex-direction: column;
+  background: linear-gradient(315deg, #b3d0f5 3%, #7688a0 80%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+.bubble {
+  z-index: 0;
+  border-radius: 100px 100px 100px 100px;
+  border-color: rgb(255, 255, 255);
+  border-width: 10px;
+  border-style: solid;
+  transform: translate(-150px, -100px);
+  width: 300px;
+  height: 300px;
+  zoom: 500%;
+  animation: wave 30s ease infinite;
+  position: fixed;
+  opacity: 15%;
+}
+
+@keyframes wave {
+  2% {
+    transform: translate(-150px, -100px);
+    border-radius: 100px 100px 100px 100px;
+    border-width: 1px;
+  }
+
+  25% {
+    transform: translate(0px, -100px);
+    border-radius: 100px 100px 50px 50px;
+
+    border-width: 5px;
+  }
+
+  50% {
+    transform: translate(150px, -100px);
+    border-radius: 100px 100px 0 0;
+
+    border-width: 10px;
+  }
+
+  75% {
+    transform: translate(0px, -100px);
+    border-radius: 100px 100px 50px 50px;
+
+    border-width: 5px;
+  }
+
+  100% {
+    transform: translate(-150px, -100px);
+    border-radius: 100px 100px 100px 100px;
+
+    border-width: 10px;
+  }
+}
+
+.bubble:nth-child(1) {
+  animation-delay: 0s;
+}
+.bubble:nth-child(2) {
+  animation-delay: 3s;
+}
+.bubble:nth-child(3) {
+  animation-delay: 7s;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
 }
 
 .content {
@@ -27,7 +114,10 @@ html, body, #root {
 
 .navbar {
   display: flex;
+  z-index: 1;
   align-items: center;
+  box-shadow: 0.5px 0.5px 10px 1px black;
+  position: relative;
 }
 
 .my-nav-bar {
@@ -57,7 +147,9 @@ html, body, #root {
 }
 
 .game-block {
-  border-style: solid;
+  position: relative;
+  z-index: 6 !important;
+  border-style: groove;
   border-radius: 5px;
   border-width: 2px;
   border-color: gray;
@@ -86,7 +178,7 @@ html, body, #root {
   display: block;
   margin-top: 5px;
   text-align: center;
-  background-color:#CCE2FF;
+  background-color: #cce2ff;
   border-radius: 0 0 5px 5px;
   border-style: solid;
   border-width: 1px;

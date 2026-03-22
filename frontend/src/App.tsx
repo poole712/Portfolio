@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="p-5 text-center rounded-3 bg-light shadow shadow-lg">
+      <div className="p-5 text-center rounded-3 shadow shadow-lg home">
         <img
           src="/Me2.png"
           alt="Bootstrap Logo"
