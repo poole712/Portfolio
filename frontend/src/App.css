@@ -1,0 +1,97 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.stack-table {
+  font-size: small;
+}
+
+.about-me-box {
+  width: 40%;
+  font-size: x-large;
+  margin: 20px;
+  padding: 15px;
+  justify-self: center;
+}
+
+.layout {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.my-nav-bar {
+  background-color: #f5deb3;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.my-nav-link {
+  color: forestgreen !important;
+  text-decoration-line: underline;
+}
+
+.game-logo {
+  width: 300px;
+  height: 175px;
+  padding: 10px;
+}
+
+.description-box {
+  align-self: center;
+  width: 300px;
+  display: flex;
+}
+
+.game-block {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: gray;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 25px;
+}
+
+.card-text {
+  font-size: small;
+}
+
+.carousel {
+  margin: 10px;
+  display: block !important;
+  align-self: center;
+  width: 900px;
+}
+
+.game-screen {
+  height: 500px;
+  object-fit: cover;
+}
+
+.download-button {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+  background-color:#CCE2FF;
+  border-radius: 0 0 5px 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lch(65.11% 0.01 296.81);
+  color: #332712;
+  padding: 8px;
+  text-decoration: none;
+}
