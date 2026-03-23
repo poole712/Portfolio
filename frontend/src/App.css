@@ -35,8 +35,6 @@ body,
   margin-left: -10px;
 }
 
-
-
 .social-link {
   list-style-type: none;
   margin: 10px;
@@ -92,6 +90,14 @@ body,
   position: relative;
 }
 
+.warning-text {
+  font-size: smaller;
+}
+
+.table {
+  table-layout: fixed;
+}
+
 .my-nav-bar {
   background-color: #f5deb3;
 }
@@ -120,7 +126,6 @@ body,
 
 .game-block {
   position: relative;
-  z-index: 6 !important;
   border-style: groove;
   border-radius: 5px;
   border-width: 2px;

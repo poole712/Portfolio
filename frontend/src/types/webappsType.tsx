@@ -10,4 +10,5 @@ export interface WebApp {
   infrastructure: string[];
   webLink: string;
   gitHubLink: string;
+  warning: string
 }

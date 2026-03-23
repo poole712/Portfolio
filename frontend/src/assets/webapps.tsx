@@ -30,6 +30,7 @@ export const WebApps = [
         "Google OAuth (Login)",
     ],
     webLink: "https://kauriboard.vercel.app/",
-    gitHubLink: "https://github.com/poole712/Kauriboard"
+    gitHubLink: "https://github.com/poole712/Kauriboard",
+    warning: "Loading can take some time (up to a 2 minutes on first load)."
   },
 ];

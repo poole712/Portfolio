@@ -10,7 +10,7 @@ export default function GameComponent({ game }: { game: Game }) {
           <div className="card-body">
             <h4 className="card-title">{game.name}</h4>
             <p className="card-text">{game.description}</p>
-            <p className="card-text fs-5">Engine: {game.engine}</p>
+            <p className="card-text">Engine: {game.engine}</p>
           </div>
           {game.gameLink && (
             <a
