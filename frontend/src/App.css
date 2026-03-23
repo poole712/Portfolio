@@ -15,6 +15,25 @@ body,
   height: 700px;
 }
 
+.footer {
+  background-color: #f5deb3;
+  box-shadow: 0.5px -0.5px 10px 1px black;
+  position: relative;
+  height: 100px;
+}
+
+.layout {
+  min-height: 100%;
+  z-index: 1;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background: linear-gradient(315deg, #b3d0f5 3%, #7688a0 80%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
 .socials {
   background: linear-gradient(to right, #f5deb300, #001b2744, #f5deb300);
   border-style: solid;
@@ -43,25 +62,16 @@ body,
 
 .about-me-box {
   color: white;
-  text-shadow: -0.5px 1px black;
-  width: 40%;
-  font-size: x-large;
+  width: 35%;
+  font-size: 22px;
+  font-weight: 1000;
+  -webkit-text-stroke: 0.75px #000000;
   margin-top: 5px;
   padding: 15px;
   justify-self: center;
 }
 
-.layout {
-  min-height: 100%;
-  z-index: 1;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  background: linear-gradient(315deg, #b3d0f5 3%, #7688a0 80%);
-  animation: gradient 15s ease infinite;
-  background-size: 400% 400%;
-  background-attachment: fixed;
-}
+
 
 .bubble {
   z-index: 0;
