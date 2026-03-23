@@ -12,13 +12,43 @@ body,
 .home {
   position: relative;
   z-index: 1;
+  height: 700px;
+}
+
+.socials {
+  background: linear-gradient(to right, #f5deb300, #001b2744, #f5deb300);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.095) rgba(0, 0, 0, 0) rgb(0, 0, 0, 0.095) rgba(0, 0, 0, 0)  ;
+  border-radius: 5px;
+  border-width: 0.5px;
+  border-radius: 10px;
+  display: flex;
+  justify-self: center;
+  width: 300px;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+.quick-link {
+  list-style-type: none;
+  margin: 10px;
+  margin-left: -10px;
+}
+
+
+
+.social-link {
+  list-style-type: none;
+  margin: 10px;
+  margin-left: -10px;
 }
 
 .about-me-box {
   color: white;
+  text-shadow: -0.5px 1px black;
   width: 40%;
   font-size: x-large;
-  margin: 20px;
+  margin-top: 5px;
   padding: 15px;
   justify-self: center;
 }

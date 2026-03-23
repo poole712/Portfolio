@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./App.css";
 
 function App() {
@@ -11,24 +12,41 @@ function App() {
           height="250"
           className="rounded rounded-3"
         />
+
         <p className="about-me-box">
           Hi Im Fletcher/Fletch! I am a web developer who is currently studying
           to become a full stack engineer. In my free time I love to work on
-          games. Below is are links to my GitHub and social medias
+          games.
         </p>
-        <ul className="list list-group list-group-horizontal align-self-center justify-content-center">
-          <li className="list-group-item d-flex border-0 bg-light justify-content-between">
+
+        <ul className="socials">
+          <li className="social-link">
+            <Link className="btn btn-primary" to={"/pages/GamePage"}>
+              Games
+              <i className="bi bi-joystick ms-1"></i>
+            </Link>
+          </li>
+          <li className="social-link">
+            <Link className="btn btn-primary" to={"/pages/WebAppsPage"}>
+              Web Apps
+              <i className="bi bi-globe ms-1"></i>
+            </Link>
+          </li>
+        </ul>
+
+        <ul className="socials  mt-3 mb-0">
+          <li className="social-link">
             <a
-              className="btn btn-primary d-flex"
+              className="btn btn-primary"
               href="https://github.com/poole712?tab=repositories"
             >
               GitHub
               <i className="bi bi-github ms-1"></i>
             </a>
           </li>
-          <li className="list-group-item d-flex border-0 bg-light justify-content-between">
+          <li className="social-link">
             <a
-              className="btn btn-primary d-flex"
+              className="btn btn-primary"
               href="https://www.linkedin.com/in/fletcher-poole-76801b185/"
             >
               LinkedIn
