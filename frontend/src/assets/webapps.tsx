@@ -33,4 +33,36 @@ export const WebApps = [
     gitHubLink: "https://github.com/poole712/Kauriboard",
     warning: "Loading can take some time (up to a 2 minutes on first load)."
   },
+  {
+    id: 2,
+    name: "Scapes and That",
+    releaseDate: "15/03/2026",
+    logo: "/WebAppLogos/ScapesAndThatLogo.jpg",
+    galleryLinks: [
+      "/WebAppScreens/ScapesAndThat/ScapesAndThat1.png",
+    ],
+    description:
+      "Scapes and that is a landscaping company based in Brisbane, Australia. My Step Brother co-owns the company and I built this website for him to promote his business and allow customers to look at their work and contact them for quotes.",
+    frontendStack: [
+        "React (Vite)",
+        "Typescript",
+        "React Router",
+        "Bootstrap",
+    ],
+    backendStack: [
+        "",
+        "",
+        "",
+        ""
+    ],
+    infrastructure: [
+        "Render (Backend)",
+        "Vercel (Frontend)",
+        "Supabase (Postgres Database)",
+        "Google OAuth (Login)",
+    ],
+    webLink: "https://scapes-and-that.vercel.app/",
+    gitHubLink: "",
+    warning: ""
+  }
 ];
