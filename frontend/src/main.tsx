@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import Layout from "./layouts/Layout.tsx";
 import GamePage from "./pages/GamePage.tsx";
 import WebAppsPage from "./pages/WebAppsPage.tsx";
+import { PharmAssist } from "./pages/PharmAssist.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
@@ -13,6 +14,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/" element={<App />} />
           <Route path="/Pages/GamePage" element={<GamePage />} />
           <Route path="/Pages/WebAppsPage" element={<WebAppsPage />} />
+          <Route path="/Pages/PharmAssist" element={<PharmAssist />} />
       </Route>
     </Routes>
   </BrowserRouter>,

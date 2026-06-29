@@ -1,0 +1,402 @@
+ [
+  {
+    "id": "prod_001",
+    "name": "Paracetamol 500mg Tablets",
+    "category": "pain_relief",
+    "price_nzd": 5.99,
+    "description": "Paracetamol is a widely used pain reliever and fever reducer. It effectively treats mild to moderate pain such as headaches, muscle aches, and reduces fever. Contains 500mg of paracetamol per tablet.",
+    "usage_instructions": "Adults and children over 12 years: Take 1-2 tablets every 4-6 hours as needed. Do not exceed 8 tablets in 24 hours.",
+    "warnings": "Do not exceed recommended dose. Avoid if you have liver disease. May interact with alcohol and other medications containing paracetamol.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_002",
+    "name": "Ibuprofen 200mg Tablets",
+    "category": "pain_relief",
+    "price_nzd": 7.5,
+    "description": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and lower fever. Key ingredient is ibuprofen 200mg per tablet, ideal for headaches, dental pain, and muscle aches.",
+    "usage_instructions": "Adults and children over 12 years: Take 1-2 tablets every 6-8 hours with food. Do not exceed 6 tablets in 24 hours.",
+    "warnings": "Avoid if you have stomach ulcers, kidney problems, or heart disease. May cause stomach upset or bleeding. Consult doctor if on blood thinners.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_003",
+    "name": "Vitamin C 500mg Tablets",
+    "category": "vitamins",
+    "price_nzd": 12.0,
+    "description": "Vitamin C is an antioxidant that supports immune function and skin health. Each tablet contains 500mg of ascorbic acid, helping to reduce the duration of colds and promote wound healing.",
+    "usage_instructions": "Adults: Take 1 tablet daily with water, preferably with food.",
+    "warnings": "High doses may cause stomach upset or kidney stones. Consult a doctor if pregnant or breastfeeding.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_004",
+    "name": "Zinc Lozenges 25mg",
+    "category": "cold_flu",
+    "price_nzd": 14.5,
+    "description": "Zinc lozenges help reduce the severity and duration of cold symptoms. Each lozenge contains 25mg of zinc gluconate, which supports immune defense and soothes sore throat.",
+    "usage_instructions": "Dissolve 1 lozenge slowly in the mouth every 2-3 hours during cold symptoms. Do not exceed 6 lozenges daily.",
+    "warnings": "Do not use for more than 7 days. Excess zinc can cause nausea or copper deficiency. Avoid if allergic to zinc.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_005",
+    "name": "Hydrocortisone 1% Cream",
+    "category": "skincare",
+    "price_nzd": 8.75,
+    "description": "Hydrocortisone cream is a mild corticosteroid used to relieve itching, redness, and inflammation from eczema, insect bites, and allergic reactions. Contains 1% hydrocortisone acetate.",
+    "usage_instructions": "Apply a thin layer to affected area 1-2 times daily. Do not use on broken skin or face for prolonged periods.",
+    "warnings": "Avoid use in children under 2 years. Prolonged use may cause skin thinning. Do not use with other corticosteroids without medical advice.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_006",
+    "name": "Loperamide 2mg Capsules",
+    "category": "digestion",
+    "price_nzd": 9.99,
+    "description": "Loperamide is an anti-diarrheal medication that slows gut movement to reduce diarrhea. Each capsule contains 2mg of loperamide hydrochloride, effective for acute, non-infectious diarrhea.",
+    "usage_instructions": "Adults: Take 2 capsules after first loose stool, then 1 capsule after each subsequent loose stool. Do not exceed 8 capsules in 24 hours.",
+    "warnings": "Avoid if diarrhea is caused by bacterial infection or with blood/mucus in stools. Not for children under 12. Consult doctor if pregnant.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_007",
+    "name": "Antihistamine Cetirizine 10mg",
+    "category": "allergy",
+    "price_nzd": 11.99,
+    "description": "Cetirizine is a non-drowsy antihistamine used to relieve hay fever, allergic rhinitis, and urticaria. Each tablet contains 10mg cetirizine hydrochloride, providing 24-hour allergy symptom relief.",
+    "usage_instructions": "Adults and children over 6 years: Take 1 tablet once daily with or without food.",
+    "warnings": "May cause drowsiness in some people. Avoid alcohol while taking this medication. Consult doctor if breastfeeding or pregnant.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_008",
+    "name": "Saline Nasal Spray",
+    "category": "cold_flu",
+    "price_nzd": 6.5,
+    "description": "Saline nasal spray helps to moisturize nasal passages, relieve congestion, and clear mucus. Contains sterile isotonic saline solution safe for all ages.",
+    "usage_instructions": "Spray 1-2 times into each nostril as needed, up to 4 times daily.",
+    "warnings": "For external nasal use only. Avoid contamination of the nozzle. Consult doctor if symptoms persist more than 7 days.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_009",
+    "name": "Aloe Vera Gel 100ml",
+    "category": "skincare",
+    "price_nzd": 10.0,
+    "description": "Pure Aloe Vera gel soothes and moisturizes skin, aiding in healing minor burns, sunburns, and skin irritations. Contains 99% natural aloe vera extract.",
+    "usage_instructions": "Apply gently to affected skin areas as needed. Suitable for daily use.",
+    "warnings": "For external use only. Avoid contact with eyes. Discontinue if irritation occurs.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_010",
+    "name": "Diphenhydramine 25mg Capsules",
+    "category": "sleep",
+    "price_nzd": 13.99,
+    "description": "Diphenhydramine is an antihistamine with sedative properties used for short-term treatment of insomnia. Each capsule contains 25mg of diphenhydramine hydrochloride.",
+    "usage_instructions": "Adults: Take 1 capsule 30 minutes before bedtime. Do not exceed recommended dose.",
+    "warnings": "May cause drowsiness, dry mouth, and dizziness. Avoid alcohol. Not recommended for elderly or children under 12.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_011",
+    "name": "Antiseptic Wound Spray",
+    "category": "first_aid",
+    "price_nzd": 9.99,
+    "description": "Antiseptic spray containing chlorhexidine gluconate for cleaning and disinfecting minor cuts, wounds, and abrasions. Helps prevent infection and promotes healing.",
+    "usage_instructions": "Spray directly onto wound after cleaning. Use 1-3 times daily until healed.",
+    "warnings": "For external use only. Avoid contact with eyes and mucous membranes. Discontinue if irritation occurs.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_012",
+    "name": "Magnesium Citrate 150mg Tablets",
+    "category": "vitamins",
+    "price_nzd": 15.0,
+    "description": "Magnesium citrate supplements support muscle and nerve function and help prevent magnesium deficiency. Each tablet contains 150mg elemental magnesium.",
+    "usage_instructions": "Adults: Take 1 tablet daily with food.",
+    "warnings": "High doses may cause diarrhea. Consult doctor if pregnant, breastfeeding, or taking other medications.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_013",
+    "name": "Calamine Lotion 120ml",
+    "category": "first_aid",
+    "price_nzd": 7.5,
+    "description": "Calamine lotion soothes itching and irritation caused by insect bites, poison ivy, and minor skin irritations. Contains calamine and zinc oxide for cooling relief.",
+    "usage_instructions": "Apply gently to affected skin up to 3 times daily.",
+    "warnings": "For external use only. Avoid broken skin and eyes. Discontinue if rash worsens.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_014",
+    "name": "Simethicone 80mg Tablets",
+    "category": "digestion",
+    "price_nzd": 8.0,
+    "description": "Simethicone relieves symptoms of gas and bloating by breaking up gas bubbles in the gut. Each tablet contains 80mg of simethicone.",
+    "usage_instructions": "Adults: Take 1-2 tablets after meals and at bedtime as needed. Do not exceed 8 tablets daily.",
+    "warnings": "Safe for most users. Consult a doctor if symptoms persist or worsen.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_015",
+    "name": "Naproxen 250mg Tablets",
+    "category": "pain_relief",
+    "price_nzd": 16.5,
+    "description": "Naproxen is a NSAID used to relieve inflammation, pain, and stiffness from conditions like arthritis or muscle injuries. Each tablet contains 250mg naproxen sodium.",
+    "usage_instructions": "Adults: Take 1 tablet every 8-12 hours with food. Do not exceed 3 tablets in 24 hours.",
+    "warnings": "Avoid if you have stomach ulcers, kidney or heart disease. May cause stomach upset, bleeding, or dizziness. Consult doctor if taking blood thinners.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_016",
+    "name": "Melatonin 3mg Tablets",
+    "category": "sleep",
+    "price_nzd": 18.0,
+    "description": "Melatonin is a natural hormone that regulates sleep-wake cycles. This supplement contains 3mg melatonin, used to treat jet lag or short-term insomnia.",
+    "usage_instructions": "Take 1 tablet 30 minutes before bedtime. Use short-term only unless advised by a doctor.",
+    "warnings": "May cause drowsiness and dizziness. Avoid alcohol and operating machinery. Consult doctor if pregnant or breastfeeding.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_017",
+    "name": "Guaifenesin 200mg Syrup",
+    "category": "cold_flu",
+    "price_nzd": 12.99,
+    "description": "Guaifenesin is an expectorant that helps loosen mucus in the chest, making coughs more productive. Each 5ml contains 200mg guaifenesin.",
+    "usage_instructions": "Adults: Take 10-20ml every 4 hours. Do not exceed 120ml in 24 hours.",
+    "warnings": "Do not use for persistent coughs associated with smoking or asthma. Consult doctor if pregnant or breastfeeding.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_018",
+    "name": "Aspirin 100mg Low Dose",
+    "category": "pain_relief",
+    "price_nzd": 9.5,
+    "description": "Low dose aspirin is used to reduce blood clot risk and relieve mild pain. Each tablet contains 100mg acetylsalicylic acid.",
+    "usage_instructions": "Take 1 tablet daily or as prescribed by your doctor.",
+    "warnings": "Not for use in children under 16. Avoid if allergic to NSAIDs or with bleeding disorders. Consult doctor before use.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_019",
+    "name": "Vitamin D3 1000 IU Capsules",
+    "category": "vitamins",
+    "price_nzd": 13.0,
+    "description": "Vitamin D3 supports bone, teeth, and immune health. Each capsule contains 1000 IU (25 mcg) of cholecalciferol.",
+    "usage_instructions": "Take 1 capsule daily with food.",
+    "warnings": "Excessive intake may cause toxicity. Consult doctor if pregnant, breastfeeding, or on other medications.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_020",
+    "name": "Menthol Chest Rub 50g",
+    "category": "cold_flu",
+    "price_nzd": 7.2,
+    "description": "Menthol chest rub provides soothing relief from chest congestion and cough. Contains menthol, eucalyptus oil, and camphor.",
+    "usage_instructions": "Apply a small amount to chest and throat up to 3 times daily. Avoid applying near eyes or broken skin.",
+    "warnings": "For external use only. Do not use on children under 2 years. Discontinue if irritation occurs.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_021",
+    "name": "Calcium Carbonate 600mg Tablets",
+    "category": "vitamins",
+    "price_nzd": 11.99,
+    "description": "Calcium carbonate supplements support bone health and prevent osteoporosis. Each tablet contains 600mg elemental calcium.",
+    "usage_instructions": "Adults: Take 1 tablet twice daily with food.",
+    "warnings": "Do not exceed recommended dose. May cause constipation. Consult doctor if kidney disease or taking other medications.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_022",
+    "name": "Hydroxyzine 25mg Tablets",
+    "category": "allergy",
+    "price_nzd": 20.0,
+    "description": "Hydroxyzine is an antihistamine used to treat severe allergies, anxiety, and nausea. Contains 25mg hydroxyzine hydrochloride per tablet.",
+    "usage_instructions": "Take as prescribed by your doctor. Usually 1 tablet 2-4 times daily.",
+    "warnings": "May cause drowsiness and dry mouth. Avoid alcohol and driving. Not for use in pregnancy unless directed by a doctor.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_023",
+    "name": "Activated Charcoal Tablets 250mg",
+    "category": "digestion",
+    "price_nzd": 9.99,
+    "description": "Activated charcoal helps relieve gas, bloating, and poisoning by adsorbing toxins in the gut. Each tablet contains 250mg activated charcoal.",
+    "usage_instructions": "Adults: Take 2-4 tablets after meals or as needed.",
+    "warnings": "Do not use with other oral medications within 2 hours. Not for long-term use. Consult doctor if pregnant or breastfeeding.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_024",
+    "name": "Hydrogen Peroxide 3% Solution",
+    "category": "first_aid",
+    "price_nzd": 5.0,
+    "description": "Hydrogen peroxide 3% is an antiseptic used for cleaning wounds and preventing infection. It foams upon contact with blood to help remove debris.",
+    "usage_instructions": "Apply to wound with cotton swab or gauze. Use once or twice daily as needed.",
+    "warnings": "For external use only. Avoid contact with eyes. Do not use on deep wounds or punctures.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_025",
+    "name": "Oxymetazoline Nasal Spray 0.05%",
+    "category": "cold_flu",
+    "price_nzd": 10.0,
+    "description": "Oxymetazoline is a nasal decongestant that shrinks swollen nasal membranes to relieve congestion. Contains 0.05% oxymetazoline hydrochloride.",
+    "usage_instructions": "Spray 1-2 times into each nostril every 12 hours. Do not exceed 2 doses in 24 hours or use for more than 3 days.",
+    "warnings": "Prolonged use may cause rebound congestion. Avoid if allergic to sympathomimetics.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_026",
+    "name": "Vitamin B12 1000mcg Tablets",
+    "category": "vitamins",
+    "price_nzd": 14.0,
+    "description": "Vitamin B12 supports nerve function and red blood cell production. Each tablet contains 1000mcg cyanocobalamin.",
+    "usage_instructions": "Take 1 tablet daily or as directed by a healthcare professional.",
+    "warnings": "Generally safe but consult doctor if pregnant or breastfeeding.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_027",
+    "name": "Antacid Chewable Tablets",
+    "category": "digestion",
+    "price_nzd": 8.5,
+    "description": "Antacid tablets neutralize stomach acid to relieve heartburn and indigestion. Contains calcium carbonate and magnesium hydroxide.",
+    "usage_instructions": "Chew 1-2 tablets as symptoms occur, up to 8 tablets daily.",
+    "warnings": "Do not exceed recommended dose. Consult doctor if taking other medications or if symptoms persist.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_028",
+    "name": "Antibiotic Cream (Neomycin, Bacitracin)",
+    "category": "first_aid",
+    "price_nzd": 11.0,
+    "description": "Topical antibiotic cream containing neomycin and bacitracin to prevent infection in minor cuts, burns, and abrasions.",
+    "usage_instructions": "Apply a thin layer to the affected area 1-3 times daily.",
+    "warnings": "For external use only. Avoid use if allergic to neomycin or bacitracin. Discontinue if rash occurs.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_029",
+    "name": "Diphenhydramine Allergy Relief Liquid",
+    "category": "allergy",
+    "price_nzd": 10.5,
+    "description": "Liquid diphenhydramine provides fast relief from allergic reactions such as hives, itching, and hay fever. Contains 12.5mg diphenhydramine per 5ml.",
+    "usage_instructions": "Adults and children over 12: Take 10-20ml every 4-6 hours. Do not exceed 120ml in 24 hours.",
+    "warnings": "May cause drowsiness. Avoid alcohol. Do not use in children under 12 without doctor advice.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_030",
+    "name": "Lidocaine 5% Cream",
+    "category": "pain_relief",
+    "price_nzd": 19.99,
+    "description": "Lidocaine cream provides local anesthesia to relieve pain and itching from insect bites, sunburn, and minor skin irritations. Contains 5% lidocaine hydrochloride.",
+    "usage_instructions": "Apply a thin layer to affected area up to 3 times daily.",
+    "warnings": "For external use only. Avoid broken skin and eyes. Do not use on large areas or under occlusive dressings.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_031",
+    "name": "Melaleuca Oil (Tea Tree Oil) 15ml",
+    "category": "skincare",
+    "price_nzd": 12.5,
+    "description": "Natural tea tree oil with antimicrobial properties used to treat acne, fungal infections, and minor skin irritations.",
+    "usage_instructions": "Dilute with carrier oil and apply to affected area once or twice daily.",
+    "warnings": "For external use only. Do not apply undiluted to skin. Avoid eyes. Discontinue if irritation occurs.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_032",
+    "name": "Nasal Decongestant Tablets (Pseudoephedrine) 60mg",
+    "category": "cold_flu",
+    "price_nzd": 15.0,
+    "description": "Pseudoephedrine tablets relieve nasal congestion due to colds and allergies by constricting blood vessels in the nasal passages.",
+    "usage_instructions": "Adults: Take 1 tablet every 4-6 hours. Do not exceed 4 tablets in 24 hours.",
+    "warnings": "Avoid if you have hypertension, heart disease, or glaucoma. May cause insomnia or nervousness.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_033",
+    "name": "Vitamin E Oil 50ml",
+    "category": "skincare",
+    "price_nzd": 16.0,
+    "description": "Vitamin E oil is an antioxidant that helps moisturize skin, reduce scars, and protect against UV damage.",
+    "usage_instructions": "Apply a few drops to skin and massage gently. Use daily for best results.",
+    "warnings": "For external use only. Avoid eyes. Discontinue if irritation occurs.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_034",
+    "name": "Oral Rehydration Salts",
+    "category": "digestion",
+    "price_nzd": 6.5,
+    "description": "Oral rehydration salts (ORS) help restore fluids and electrolytes lost during diarrhea or vomiting. Contains glucose, sodium, potassium, and citrate.",
+    "usage_instructions": "Dissolve one sachet in 200ml water and drink as needed.",
+    "warnings": "Do not use with undiluted water. Consult doctor if symptoms persist or worsen.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_035",
+    "name": "Benzocaine 20% Oral Gel",
+    "category": "pain_relief",
+    "price_nzd": 14.0,
+    "description": "Benzocaine oral gel provides temporary relief from toothache, sore gums, and mouth ulcers. Contains 20% benzocaine topical anesthetic.",
+    "usage_instructions": "Apply a small amount to affected area up to 4 times daily.",
+    "warnings": "Do not swallow gel. Avoid use in children under 2 years. Discontinue if allergic reaction occurs.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_036",
+    "name": "Eucalyptus Oil 30ml",
+    "category": "cold_flu",
+    "price_nzd": 11.0,
+    "description": "Eucalyptus oil is used to relieve nasal congestion and muscle pain. Contains natural eucalyptus leaf oil with expectorant properties.",
+    "usage_instructions": "Dilute before topical use or add a few drops to a diffuser. Do not ingest.",
+    "warnings": "For external use only. Avoid eyes and broken skin. Not for children under 6 years.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_037",
+    "name": "Calcium Magnesium Zinc Tablets",
+    "category": "vitamins",
+    "price_nzd": 19.0,
+    "description": "Combination supplement supporting bone health and immune function. Contains calcium 300mg, magnesium 150mg, and zinc 15mg per tablet.",
+    "usage_instructions": "Take 1 tablet daily with food.",
+    "warnings": "Do not exceed recommended dose. Consult doctor if pregnant, breastfeeding, or on medication.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_038",
+    "name": "Hydrocolloid Blister Plasters",
+    "category": "first_aid",
+    "price_nzd": 12.0,
+    "description": "Hydrocolloid plasters protect and promote healing of blisters by maintaining a moist environment. Ideal for foot blisters and minor skin injuries.",
+    "usage_instructions": "Clean and dry affected area. Apply plaster and change every 3-5 days or when loose.",
+    "warnings": "For external use only. Discontinue if irritation or infection occurs.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_039",
+    "name": "Dextromethorphan 15mg Cough Syrup",
+    "category": "cold_flu",
+    "price_nzd": 13.5,
+    "description": "Dextromethorphan suppresses dry cough by acting on the cough center in the brain. Each 5ml contains 15mg dextromethorphan hydrobromide.",
+    "usage_instructions": "Adults and children over 12: Take 10ml every 4-6 hours. Do not exceed 60ml in 24 hours.",
+    "warnings": "Do not use with MAO inhibitors or within 14 days of stopping them. May cause dizziness or nausea.",
+    "in_stock": true
+  },
+  {
+    "id": "prod_040",
+    "name": "Calcium Folinate 15mg Tablets",
+    "category": "vitamins",
+    "price_nzd": 21.0,
+    "description": "Calcium folinate is a form of folic acid used to treat folate deficiency and reduce side effects of certain chemotherapy drugs.",
+    "usage_instructions": "Use only as prescribed by your healthcare provider.",
+    "warnings": "Not for self-medication. Consult your doctor before use.",
+    "in_stock": true
+  }
+]

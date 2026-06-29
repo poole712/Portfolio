@@ -10,12 +10,16 @@ function Navbar() {
             <p className="m-0 mx-2 fst-italic">Portfolio</p>
           </Link>
           <div className="d-flex align-items-center gap-4">
+            <Link className="nav-link my-nav-link" to="/pages/PharmAssist">
+              PharmAssist
+            </Link>
             <Link className="nav-link my-nav-link" to="/pages/GamePage">
               Games
             </Link>
             <Link className="nav-link my-nav-link" to="/pages/WebAppsPage">
               Web Apps
             </Link>
+            
           </div>
         </div>
       </div>
