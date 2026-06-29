@@ -49,7 +49,8 @@ export function PharmAssist() {
               </tbody>
             </table>
             <p className="fs-5 fw-bold">Data:</p>
-            <andypf-json-viewer theme="summerfruit-light" expanded={false} data={products}></andypf-json-viewer>
+            {// @ts-expect-error json
+            <andypf-json-viewer theme="summerfruit-light" expanded={false} data={products}></andypf-json-viewer>}
           </div>
         </div>
       </div>
