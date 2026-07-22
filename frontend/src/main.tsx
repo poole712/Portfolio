@@ -6,6 +6,7 @@ import Layout from "./layouts/Layout.tsx";
 import GamePage from "./pages/GamePage.tsx";
 import WebAppsPage from "./pages/WebAppsPage.tsx";
 import { PharmAssist } from "./pages/PharmAssist.tsx";
+import { SupermarketSelector } from "./pages/SupermarketSelector.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/Pages/GamePage" element={<GamePage />} />
           <Route path="/Pages/WebAppsPage" element={<WebAppsPage />} />
           <Route path="/Pages/PharmAssist" element={<PharmAssist />} />
+          <Route path="/Pages/SupermarketSelector" element={<SupermarketSelector />} />
       </Route>
     </Routes>
   </BrowserRouter>,

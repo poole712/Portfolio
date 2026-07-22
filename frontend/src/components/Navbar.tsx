@@ -11,7 +11,10 @@ function Navbar() {
           </Link>
           <div className="d-flex align-items-center gap-4">
             <Link className="nav-link my-nav-link" to="/pages/PharmAssist">
-              PharmAssist
+              Pharm Assist
+            </Link>
+            <Link className="nav-link my-nav-link" to="/pages/SupermarketSelector">
+              Supermarket Selector
             </Link>
             <Link className="nav-link my-nav-link" to="/pages/GamePage">
               Games
@@ -19,7 +22,6 @@ function Navbar() {
             <Link className="nav-link my-nav-link" to="/pages/WebAppsPage">
               Web Apps
             </Link>
-            
           </div>
         </div>
       </div>

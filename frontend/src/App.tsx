@@ -15,7 +15,8 @@ function App() {
 
         <p className="about-me-box">
           Hi Im Fletcher/Fletch! I am a web developer with a keen interest in AI integration. 
-          Check out my work linked below as well as the projects like <Link to="/pages/PharmAssist">PharmAssist</Link> to see some of the AI work I've been getting into lately.
+          Check out my work linked below as well as the projects like <Link to="/pages/PharmAssist">Pharm Assist</Link> or <Link to="/pages/SupermarketSelector">Supermarket Selector </Link>
+          to see some of the AI work I've been getting into lately.
           <br/>In my free time I love to work on games.
         </p>
 
