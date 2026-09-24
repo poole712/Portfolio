@@ -16,7 +16,7 @@ function App() {
         <p className="about-me-box">
           Hi Im Fletcher/Fletch! I am a web developer with a keen interest in AI integration. 
           Check out my work linked below as well as well as my GitHub and LinkedIn profiles.
-          <br/>My most ambitious project to date is the <a href="https://last-stand-data-blue.vercel.app/">Sacred Archive</a>, which is a AI powered Podcast archive.
+          <br/>My most ambitious project to date is the <a href="https://last-stand-data-blue.vercel.app/" target="_blank" rel="noopener noreferrer">Sacred Archive</a>, which is a AI powered Podcast archive.
           <br/>In my free time I love to work on games.
         </p>
 
