@@ -10,6 +10,9 @@ function Navbar() {
             <p className="m-0 mx-2 fst-italic">Portfolio</p>
           </Link>
           <div className="d-flex align-items-center gap-4">
+            <a className="nav-link my-nav-link" href="https://last-stand-data-blue.vercel.app/" target="_blank" rel="noopener noreferrer">
+              Sacred Archive
+            </a>
             <Link className="nav-link my-nav-link" to="/pages/PharmAssist">
               Pharm Assist
             </Link>
